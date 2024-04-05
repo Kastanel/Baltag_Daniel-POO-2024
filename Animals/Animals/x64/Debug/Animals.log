@@ -1,7 +1,0 @@
-﻿  pch.cpp
-  Animals.cpp
-  AssemblyInfo.cpp
-  Generating Code...
-  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
-  Animals.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Animals.vcxproj -> D:\GitHub\Baltag_Daniel-POO-2024\Animals\x64\Debug\Animals.exe

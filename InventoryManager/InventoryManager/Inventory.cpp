@@ -38,25 +38,13 @@ Product^ Inventory::FindProductByName(String^ name)
 void Inventory::UpdateProductQuantity(String^ name, int newQuantity)
 {
 	Product^ product = FindProductByName(name);
-
-	if (product != nullptr) {
-		product->SetQuantity(newQuantity);
-	}
-	else {
-		Console::WriteLine("Product " + name + " is not in stock.\n");
-	}
+	product->SetQuantity(newQuantity);
 }
 
 void Inventory::UpdateProductPrice(String^ name, double newPrice)
 {
 	Product^ product = FindProductByName(name);
-
-	if (product != nullptr) {
-		product->SetPrice(newPrice);
-	}
-	else {
-		Console::WriteLine("Product " + name + " is not in stock.\n");
-	}
+	product->SetPrice(newPrice);
 }
 
 void Inventory::RemoveProduct(String^ name)
